@@ -1,0 +1,23 @@
+==> React router installation
+    - npm create vite@latest name-of-your-project -- --template react
+    - cd <your new project directory>
+    - npm install react-router-dom localforage match-sorter sort-by
+    - npm run dev
+
+=> Create and render a browser router in 'main.jsx' --> following 3 steps
+    -- step-1:
+        - import {
+                createBrowserRouter,
+                RouterProvider,
+            } from "react-router-dom";
+        
+    -- step-2:
+        -   const router = createBrowserRouter([
+            {
+                path: '/',
+                element: <div>This is the default main content</div>
+            }
+            ])
+
+    -- step-3:
+        - <RouterProvider router={router}></RouterProvider>

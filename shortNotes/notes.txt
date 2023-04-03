@@ -1,0 +1,12 @@
+# move one page to other page --> navigation
+# nav - static site - navigate
+
+
+# 3 steps:
+    1. component
+    2. route set
+    3. link set
+
+# component + Route + LInk  ---> dynamic navigation
+
+#
